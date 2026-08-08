@@ -1,0 +1,11 @@
+name = "halo-mcp-gateway"
+main = "src/index.ts"
+compatibility_date = "2026-07-20"
+
+[vars]
+HALO_BASE_URL = "https://your-halo.example.com"
+HALO_TIMEOUT_MS = "30000"
+MCP_ALLOWED_ORIGINS = "https://chatgpt.com,https://chat.openai.com"
+
+[observability]
+enabled = true
