@@ -3,7 +3,7 @@ main = "src/worker.ts"
 compatibility_date = "2026-07-20"
 
 [vars]
-HALO_BASE_URL = "https://your-halo.example.com"
+HALO_BASE_URL = "https://wangling.hauchet.cn"
 HALO_TIMEOUT_MS = "30000"
 MCP_ALLOWED_ORIGINS = "https://chatgpt.com,https://chat.openai.com"
 
