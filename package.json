@@ -1,0 +1,19 @@
+{
+  "name": "halo-mcp-cloudflare-worker",
+  "version": "3.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Cloudflare Worker MCP exposing exactly 12 CRUD tools for Halo tags, categories, and articles.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "npx wrangler@latest dev",
+    "deploy": "npx wrangler@latest deploy"
+  },
+  "dependencies": {
+    "marked": "18.0.7",
+    "pinyin-pro": "3.28.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}
